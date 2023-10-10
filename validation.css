@@ -1642,7 +1642,7 @@ text-align: center;
   background-color: rgb(45, 45, 45);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
   body{
     width: 100%;
@@ -1699,5 +1699,42 @@ text-align: center;
         .partie3{
           width: 100%;
         }
-  
+
+        .partie3 table{
+          width: 100%;
+        }
+ 
+        .partie4 .bottome4{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+        }
+
+        .partie4 .left4{
+          width: 100%;
+        }
+
+        .partie4 .milieu4{
+          width: 100%;
+        }
+
+        .partie4 .right4{
+          width: 100%;
+        }
+
+        .partie4 .image4{
+          margin-left: 40%;
+        } 
+
+        .partie5{
+          width: 100%;
+        }
+
+        .partie5 .top55{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+
+
 }
