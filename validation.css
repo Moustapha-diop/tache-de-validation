@@ -1641,3 +1641,63 @@ text-align: center;
 .formulaire input[type="submit"]:hover{
   background-color: rgb(45, 45, 45);
 }
+
+@media screen and (min-width: 480px) {
+
+  body{
+    width: 100%;
+  }
+
+  Header{
+    width: 100%;
+  }
+
+  .partie1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .partie1 .right1 p{
+     width: 100%;
+     text-align: center;
+     font-size: 20px;
+    }
+
+    .partie1 .right1 h1{
+      text-align: center;
+    }
+
+    .partie1 img{
+      width: 100%;
+    }
+
+    .partie2{
+      width: 100%;
+    }
+
+    .partie2 .grid{
+      width: 100%;
+    }
+
+    .partie2 img{
+      width: 100%;
+    }
+
+    .partie2 .grid .top2{
+      width: 100%;
+       display: flex;
+       flex-direction: column;
+      }
+
+      .partie2 .grid .bottome2{
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+        }
+
+        .partie3{
+          width: 100%;
+        }
+  
+}
